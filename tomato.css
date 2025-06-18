@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.OverallmainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.menu-Container {
+    display: grid;
+    background-color: rgb(224, 224, 224);
+    padding: 50px 0 50px 0;
+}
+.listItemsContainers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+.overallDiv {
+    margin: 0 150px 0 150px;
+}
+.listItemsTagLine {
+    margin: 0 0 20px 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.listItemsContainers img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 0 10px 13px 1px;
+}
+.details {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+/* ===========================  Brands  ============================= */
+
+.brandListsContainer img{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    box-shadow: 10px -5px 10px slategrey;
+}
+.brandListsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+.brandsOverallDiv {
+    margin: 0 150px 0 150px;
+}
+.brandsMain-Container {
+    display: grid;
+    padding: 50px 0 50px 0;
+}
+.brandsTagLine {
+    margin: 0 0 20px 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.brandName {
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.brandTime {
+    text-align: center;
+    margin: 10px;
+}
+.brandContainer {
+    margin: 20px; 
+}
+
+/* ---------------------- Hotels ---------------------- */
+
+.hotelsMain-Container {
+    margin: 0 150px 0 150px;
+}
+.hotelsTagLine {
+    margin: 0 0 20px 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.hotelListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hotelsDiv {
+    margin-bottom: 50px;
+    padding: 10px 10px;
+}
+.hotelsDiv:hover {
+    box-shadow: 0 0 20px dimgray;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.hotelsImg img{
+    width: 550px;
+    height: 340px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.hotelsImg {
+    position: relative;
+}
+.offer {
+    background-color: rgb(74, 74, 255);
+    color: white;
+    padding: 0 15px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+}
+.hotelName {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotelName p {
+    background-color: rgb(0, 114, 0);
+    color: white;
+    padding: 3px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0;
+}
+.hotelName h3 {
+    margin: 0;
+}
+.hotelItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.hotelItems p {
+    margin: 0;
+}
